@@ -1,0 +1,29 @@
+.shop-aside {
+  --size: 200px;
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  padding: 10px 0 20px 0;
+  min-width: var(--size);
+  margin-left: calc(-1 * var(--size));
+  transition: 0.2s ease-in-out;
+}
+.shop-aside--active {
+  margin-left: 0;
+}
+.shop-aside__header {
+}
+.shop-aside-header__logo {
+}
+.shop-aside__content {
+}
+.shop-aside-content__nav {
+}
+.shop-aside-content-nav__list {
+}
+.shop-aside__footer {
+  margin-top: auto;
+}
+.shop-aside-footer__info {
+  margin: 0;
+}

@@ -1,0 +1,29 @@
+.shop-header {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(71, 52, 72);
+  padding: 10px;
+  gap: 20px;
+}
+.shop-header__left {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.shop-header-left__logo {
+}
+
+.shop-header__center {
+  width: 100%;
+}
+.shop-header-center__search {
+  width: 100%;
+}
+
+.shop-header__right {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.shop-header-right__btn {
+}

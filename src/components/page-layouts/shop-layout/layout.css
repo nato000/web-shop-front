@@ -1,0 +1,15 @@
+.page-wrapper {
+  display: flex;
+  height: 100vh;
+}
+.content-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  overflow: hidden;
+}
+.main-wrapper {
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+}
