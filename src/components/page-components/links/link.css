@@ -1,0 +1,18 @@
+.link {
+  font-family: 'Lexend', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-transform: capitalize;
+  text-decoration: none;
+  text-align: center;
+  padding: 5px;
+  margin: -10px 0 0 0;
+  color: rgb(44, 52, 58);
+  transition: 0.1s ease-in-out;
+}
+
+.link:hover {
+  color: rgb(51, 51, 255);
+  text-decoration: underline;
+}

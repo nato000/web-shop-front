@@ -1,4 +1,5 @@
 import React, { ReactNode } from 'react';
+import './authPage.css';
 
 interface AuthLayoutProps {
   title: string;
@@ -7,10 +8,12 @@ interface AuthLayoutProps {
 
 const AuthLayout: React.FC<AuthLayoutProps> = ({ title, children }) => {
   return (
-    <div className='auth_page'>
-      {/* <Logo type={'Color'} /> */}
-      <h1 className='title'>{title}</h1>
-      {children}
+    <div className='auth-page'>
+      <div className='auth-wrapper'>
+        {/* <Logo type={'Color'} /> */}
+        <h1 className='title'>{title}</h1>
+        {children}
+      </div>
     </div>
   );
 };

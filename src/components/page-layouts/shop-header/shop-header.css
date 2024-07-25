@@ -1,7 +1,7 @@
 .shop-header {
   display: flex;
   justify-content: space-between;
-  background-color: rgb(71, 52, 72);
+  background-color: rgb(var(--color-purple));
   padding: 10px;
   gap: 20px;
 }

@@ -20,27 +20,27 @@ export const ShopAside: React.FC<ShopAsideProps> = (ShopAsideProps) => {
           <nav className='shop-aside-content__nav'>
             <ul className='shop-aside-content-nav__list'>
               <li className='shop-aside-content-nav-list__item'>
-                <Link to='/' className='shop-aside-header__logo'>
+                <Link to='/' className='shop-aside-content-nav-list-item__link'>
                   item
                 </Link>
               </li>
               <li className='shop-aside-content-nav-list__item'>
-                <Link to='/' className='shop-aside-header__logo'>
+                <Link to='/' className='shop-aside-content-nav-list-item__link'>
                   item
                 </Link>
               </li>
               <li className='shop-aside-content-nav-list__item'>
-                <Link to='/' className='shop-aside-header__logo'>
+                <Link to='/' className='shop-aside-content-nav-list-item__link'>
                   item
                 </Link>
               </li>
               <li className='shop-aside-content-nav-list__item'>
-                <Link to='/' className='shop-aside-header__logo'>
+                <Link to='/' className='shop-aside-content-nav-list-item__link'>
                   item
                 </Link>
               </li>
               <li className='shop-aside-content-nav-list__item'>
-                <Link to='/' className='shop-aside-header__logo'>
+                <Link to='/' className='shop-aside-content-nav-list-item__link'>
                   item
                 </Link>
               </li>

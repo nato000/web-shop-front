@@ -1,5 +1,5 @@
 import React from 'react';
-
+import './checkbox.css';
 interface IPasswordInput {
   label: string;
   onChange: () => void;
@@ -8,9 +8,9 @@ interface IPasswordInput {
 export const Checkbox: React.FC<IPasswordInput> = ({ label, onChange }) => {
   return (
     <>
-      <label className=''>
+      <label className='checkbox__label'>
         {label}
-        <input className='' onChange={onChange} type='checkbox' />
+        <input className='checkbox__input' onChange={onChange} type='checkbox' />
       </label>
     </>
   );

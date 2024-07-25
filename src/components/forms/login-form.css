@@ -1,0 +1,12 @@
+.auth-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.auth-form__issues {
+  display: flex;
+  margin: 10px 0 0 0;
+  justify-content: space-between;
+  align-content: center;
+}

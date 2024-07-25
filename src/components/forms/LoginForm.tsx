@@ -11,6 +11,8 @@ import { Checkbox } from '../page-components/Checkbox/Checkbox';
 import { AppButton } from '../page-components/buttons/Button';
 import { AppLink } from '../page-components/links/Link';
 
+import './login-form.css';
+
 export interface ILoginForm {
   buttonTitle: string;
 }
@@ -48,7 +50,7 @@ export const LoginForm: React.FC<ILoginForm> = ({ buttonTitle }) => {
   const isShown = shown ? 'text' : 'password';
 
   return (
-    <form onSubmit={handleSubmit(onSubmit)} className='auth_form'>
+    <form onSubmit={handleSubmit(onSubmit)} className='auth-form'>
       <FormInput
         label='email'
         type='email'
@@ -65,7 +67,7 @@ export const LoginForm: React.FC<ILoginForm> = ({ buttonTitle }) => {
       />
       <Checkbox label='show password' onChange={() => setShown(!shown)} />
       <AppButton title={buttonTitle} type='submit' />
-      <div className=''>
+      <div className='auth-form__issues'>
         <AppLink to='/forgot-password' title='Forgot password?' />
         <AppLink to='/sign-up' title='Dont have account?' />
       </div>

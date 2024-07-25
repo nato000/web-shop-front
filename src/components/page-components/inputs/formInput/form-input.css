@@ -1,0 +1,50 @@
+.label {
+  --color-gray: rgba(80, 94, 104, 1);
+  --color-gray-light: rgba(202, 210, 214, 1);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  font-family: 'Lexend', sans-serif;
+  text-transform: capitalize;
+  color: var(--color-gray);
+  display: flex;
+  position: relative;
+  width: 100%;
+  flex-direction: column;
+  gap: 4px;
+  margin: 10px 0 0 0;
+}
+
+.label__input {
+  font-family: 'Lexend', sans-serif;
+  height: 22px;
+  font-size: 15px;
+  padding: 12px 16px;
+  border: 1px solid var(--color-gray);
+  border-radius: 5px;
+  outline: none;
+}
+
+.label:focus-within {
+  color: rgb(var(--color-purple));
+}
+
+.label:focus-within .label__input {
+  outline: 2px solid rgb(var(--color-purple));
+}
+.label__input:placeholder-shown {
+  border: 1px solid var(--color-gray-light);
+}
+
+.error-message {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-family: 'Lexend', sans-serif;
+  font-size: 12px;
+  color: red;
+  border-radius: 5px;
+  background-color: rgba(255, 0, 0, 0.22);
+  padding: 0 10px;
+  transition: 0.1s ease-in-out;
+}

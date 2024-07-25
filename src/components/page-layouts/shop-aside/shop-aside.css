@@ -2,7 +2,7 @@
   --size: 200px;
   display: flex;
   flex-direction: column;
-  background-color: black;
+  background-color: rgb(var(--color-black));
   padding: 10px 0 20px 0;
   min-width: var(--size);
   margin-left: calc(-1 * var(--size));
@@ -14,12 +14,18 @@
 .shop-aside__header {
 }
 .shop-aside-header__logo {
+  color: rgb(var(--color-white));
 }
 .shop-aside__content {
 }
 .shop-aside-content__nav {
 }
 .shop-aside-content-nav__list {
+}
+.shop-aside-content-nav-list__item {
+}
+.shop-aside-content-nav-list-item__link {
+  color: rgb(var(--color-white));
 }
 .shop-aside__footer {
   margin-top: auto;

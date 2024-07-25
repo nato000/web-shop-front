@@ -1,23 +1,17 @@
 import React from 'react';
+import './button.css';
 
 interface ButtonProps {
   disabled?: boolean;
   onClick?: () => void;
   title: string;
   type: 'button' | 'submit' | 'reset' | undefined;
-  buttonClass?: string;
 }
 
-export const AppButton: React.FC<ButtonProps> = ({
-  disabled,
-  onClick,
-  title,
-  type,
-  buttonClass,
-}) => {
+export const AppButton: React.FC<ButtonProps> = ({ disabled, onClick, title, type }) => {
   return (
     <>
-      <button disabled={disabled} onClick={onClick} className='' type={type}>
+      <button disabled={disabled} onClick={onClick} className='button' type={type}>
         {title}
       </button>
     </>

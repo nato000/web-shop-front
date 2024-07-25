@@ -1,0 +1,21 @@
+:root {
+  --color-black: 17, 21, 42;
+  --color-white: 240, 236, 229;
+
+  --color-purple: 59, 49, 91;
+
+  --color-blue: 63, 114, 175;
+  --color-blue-dark: 17, 45, 78;
+
+  --color-gray: 182, 187, 196;
+
+  --dashboard-padding-Y: 20px;
+  --dashboard-padding-X: 40px;
+  --dashboard-header-title-line-height: 32px;
+
+  --dashboard-controls-height: 38px;
+  --dashboard-controls-padding-Y: 16px;
+  --dashboard-controls-padding-X: 12px;
+
+  --dashboard-aside-padding-left: 30px;
+}

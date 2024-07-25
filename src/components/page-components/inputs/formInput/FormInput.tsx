@@ -12,8 +12,6 @@ interface IinputProps {
   register?: UseFormRegisterReturn;
   error?: string;
   accept?: string;
-  labelClass?: string;
-  inputClass?: string;
 }
 
 export const FormInput: React.FC<IinputProps> = ({
@@ -26,16 +24,14 @@ export const FormInput: React.FC<IinputProps> = ({
   value,
   defaultValue,
   accept,
-  labelClass,
-  inputClass,
 }) => {
   return (
     <>
-      <label htmlFor={id} className=''>
+      <label htmlFor={id} className='label'>
         {label}
         <input
           id={id}
-          className=''
+          className='label__input'
           type={`${type}`}
           placeholder={placeholder}
           accept={accept}

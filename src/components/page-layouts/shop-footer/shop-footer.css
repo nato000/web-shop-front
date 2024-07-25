@@ -1,4 +1,5 @@
 .shop-footer {
-  background-color: black;
+  background-color: rgb(var(--color-black));
+  color: rgb(var(--color-white));
   padding: 20px;
 }
